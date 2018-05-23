@@ -58,6 +58,7 @@ class App extends Component {
       this.refreshWeb3()
     })
     .catch((error) => {
+      console.log('here')
       this.setState({alart: true})
       this.setState({
         web3: null
@@ -104,7 +105,7 @@ class App extends Component {
         <div>
           <div>
             <Navbar fixed={`top`} light expand="md">
-              <NavbarBrand href="/" className="mr-auto">BAZYL <small> (alpha) Ethereum explorer </small></NavbarBrand>
+              <NavbarBrand href="/" className="mr-auto">BAZYL <small> (alpha) Ethereum explorer dapp</small></NavbarBrand>
               <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
               <Collapse isOpen={!this.state.navCollapsed} navbar>
                 <Nav className="ml-auto" navbar>
@@ -121,7 +122,7 @@ class App extends Component {
                     </DropdownMenu>
                   </UncontrolledDropdown>
                   <NavItem>
-                    <NavLink href="#">GitHub</NavLink>
+                    <NavLink href="https://github.com/jsguil/bazyl">GitHub</NavLink>
                   </NavItem>
                 </Nav>
               </Collapse>
@@ -130,7 +131,7 @@ class App extends Component {
           <Jumbotron id='generalDiv'>
             <Collapse isOpen={this.state.alart}>
               <Alert color="danger">
-                To use ETH-TREE, you must install the MetaMask extension. Check <a href="https://metamask.io/">https://metamask.io/</a> for more information.
+                You must install the MetaMask extension or the Mist browser. Check <a href="https://metamask.io/">https://metamask.io/</a> for more information.
               </Alert>
             </Collapse>
             <h2 onClick={this.general}>General information</h2>
