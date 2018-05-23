@@ -9,23 +9,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 Bazyl works with Metamask chrome extension or Mist browser. Follow those link for how to install them:
 
-[MetaMask](https://metamask.io/)
-[Mist](https://github.com/ethereum/mist)
+* [MetaMask](https://metamask.io/)
+* [Mist](https://github.com/ethereum/mist)
 
 To run and test Bazyl on your local machine, you will need to install node.js/npm:
 
-[Node.js](https://nodejs.org/en/download/)
+* [Node.js](https://nodejs.org/en/download/)
 
 If you want to create and add smart contracts to the project, you can install Truffle:
 
-[Truffle](http://truffleframework.com/docs/getting_started/installation)
+* [Truffle](http://truffleframework.com/docs/getting_started/installation)
 
 ### Installing
 
 You can install Bazyl on your local machine with those command :
 
 ```
-Give the example
 $ git clone https://github.com/jsguil/bazyl.git
 $ cd bazyl
 $ npm install
