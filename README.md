@@ -45,7 +45,7 @@ For Deployment, use the following command :
 $ npm run build
 ```
 
-### Events
+## Events
 
 To follow your events, enter the address of your contract in the Events section and enter your topic.
 
@@ -61,9 +61,9 @@ Acceptable topic format
 Event1(address,bytes32)
 ```
 
-### Testing a smart contracts
+## Testing a smart contract
 
-Testing a smart contract with Bazyl, you will need to create the abi file. From Truffle, you can use the JSON from the build directly. To compile your file, you can use the following command :
+For testing a smart contract with Bazyl, you will need to create the abi file. From Truffle, you can use the JSON from the build directly. To compile your file, you can use the following command :
 
 ```
 $ truffle compile
