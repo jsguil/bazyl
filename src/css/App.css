@@ -1,0 +1,94 @@
+
+/* NAVBAR */
+.navbar{
+  color : #FFFFFF;
+  background-color: #37b221;
+}
+
+.navbar-light .navbar-brand{
+  color : #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../images/menuIcon.svg")
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: #37b221;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #37b221;
+    border-color: #37b221;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #37b221;
+    border-color: #37b221;
+}
+
+h2, .h2 {
+    font-size: 2rem;
+    color: #000;
+}
+
+.jumbotron {
+  background-color: #d6d6d6;
+}
+
+.card {
+  border: 2px solid #000;
+}
+
+.chartDiv {
+  border: 2px solid #000;
+}
+
+.react-bs-table-bordered {
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.form-control {
+  border: 2px solid #000000;
+}
+
+.react-bs-table table td, .react-bs-table table th {
+    white-space: initial;
+    overflow: auto;
+    text-overflow: clip;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #FFFFFF;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #000000;
+}
+
+.table {
+  background-color: #FFFFFF;
+  font-size: 12px;
+}
+
+.files-dropzone {
+  background-color: #FFFFFF;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.console {
+  background-color: #FFFFFF;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
