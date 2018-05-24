@@ -67,10 +67,10 @@ For testing a smart contract with Bazyl, you will need to create the abi file. F
 ```
 $ truffle compile
 ```
-More information can be fund from [here](http://truffleframework.com/docs/getting_started/compile).
+More information can be found from [here](http://truffleframework.com/docs/getting_started/compile).
 You can then drop the JSON file in the Code editor section of Bazyl.
 
-To test your contract with the code editor, you will need the address of your deployed contract. Then you can test some function using the contract variable. Exemple:
+To test your contract with the code editor, you will need the address of your deployed contract. Then you can test your function using the contract variable. Exemple:
 
 ```
 contract.methods.myMethod(...)
